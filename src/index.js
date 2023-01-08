@@ -6,6 +6,6 @@ import App from "./App";
 import "./App.css";
 
 import { worker } from "./mocks/browser";
-worker.start();
+//worker.start();
 
 ReactDOM.render(<App />, document.getElementById("root"));
